@@ -1,6 +1,5 @@
 import json
 from aiohttp import web
-
 from models.price import Price
 
 async def index(request):

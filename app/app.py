@@ -2,7 +2,6 @@ from aiohttp import web
 from http_layer.signals.headers_signal import setup_headers
 from http_layer.signals.cors_signal import setup_cors
 from database.database import setup_database
-
 from http_layer.routes.api import setup_routes
 
 async def init_app(argv=None):

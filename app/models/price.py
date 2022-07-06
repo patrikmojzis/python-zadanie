@@ -1,7 +1,5 @@
 from sqlalchemy.orm import declarative_base
 from sqlalchemy import Column, Integer, String, DateTime, Float
-from datetime import datetime
-from services.time_service import round_seconds
 from sqlalchemy.sql import func
 
 Base = declarative_base()
