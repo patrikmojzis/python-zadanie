@@ -1,0 +1,7 @@
+gunicorn
+aiohttp
+asyncio
+ccxt
+sqlalchemy
+configparser
+psycopg2
